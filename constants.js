@@ -8,7 +8,7 @@ const Messages = {
   '1': 'Say: SsSssSs',
   '2': 'Say: I am a snake!',
   '3': 'Say: Just keep slithering, just keep slithering',
-  '4': 'Say: 🐍',
+  '4': 'Say: (U+1F40D)',
   '5': 'Say: Hello!'
 };
 
