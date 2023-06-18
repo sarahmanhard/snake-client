@@ -1,5 +1,6 @@
 const IP = 'localhost';
 const PORT = 50541;
+// Movement keys
 const Move_Up_Key = 'w';
 const Move_Left_Key = 'a';
 const Move_Down_Key = 's';
@@ -8,11 +9,11 @@ const Messages = {
   '1': 'Say: SsSssSs',
   '2': 'Say: I am a snake!',
   '3': 'Say: Just keep slithering, just keep slithering',
-  '4': 'Say: (U+1F40D)',
+  '4': 'Say: 🐍',
   '5': 'Say: Hello!'
 };
 
-//EXPORT
+//Export the configuration
 module.exports = {
   IP,
   PORT,
