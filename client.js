@@ -12,7 +12,7 @@ const connect = function() {
   conn.setEncoding('utf8'); // Interpret incoming data as text
   conn.on('connect', () => {
     console.log('Successfully connected to game server');
-    //conn.write('Name: 3 letters'); // Send the name to the server
+    
   });
   const rl = readline.createInterface({
     input: process.stdin,
