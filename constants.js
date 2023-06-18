@@ -1,5 +1,6 @@
 const IP = 'localhost';
 const PORT = 50541;
+const readline = require('readline');
 // Movement keys
 const Move_Up_Key = 'w';
 const Move_Left_Key = 'a';

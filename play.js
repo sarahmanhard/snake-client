@@ -1,5 +1,9 @@
 const { connect } = require('./client');
 const { setupInput } = require('./input');
-console.log('Connecting ...');
+
+console.log('Connecting...');
 const conn = connect(); // Call the connect function to establish a connection
-setupInput(conn); // Call the setupInput function to set up user input handling using the connection
+
+conn.on('connect', () => {
+  setupInput(conn); // Call the setupInput function after the connection is established
+});
